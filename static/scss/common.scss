@@ -1,0 +1,62 @@
+// Common styles of the project
+html,
+body {
+	height: 100%;
+}
+.page {}
+.page__wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+* html .page__wrapper {
+	height: 100%;
+}
+.page__buffer {
+	height: 50px;
+}
+ul,
+ol {
+	margin: 0px;
+	padding: 0px;
+}
+*,*:hover,*:focus,*:active{
+	outline:0;
+}
+.block {
+	display: block;
+}
+/*buttons*/
+.btn-transparent {
+	color: #fff;
+	background: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	&.danger {
+		border: 2px solid #eb5c4e;
+	}
+}
+/*feedback-form*/
+.feedback-form{
+	background-color: #fffbf2;
+	padding: 15px 0px;
+}
+/*end feedback-form*/
+/*icons*/
+	i.icon.rounded {
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+		color: #eb5c4e;
+		font-size: 25px;
+		display: inline-block;
+		border: 3px solid #eb5c4e;
+		border-radius: 50%;
+	}
+
+.bg-colored{
+	background-color: #fffbf2;
+}
+
+.inline-block{
+	display: inline-block;
+}

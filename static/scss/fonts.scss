@@ -1,0 +1,72 @@
+/* Your custom fonts here */
+
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Custom-Font.eot');
+    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Custom-Font.woff') format('woff'),
+         url('../fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+
+
+// Var for using custom font
+$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
+*/
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Mark Simonson - Proxima Nova Regular.otf') format("opentype");;
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/Mark Simonson - Proxima Nova Bold.otf') format("opentype");;
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'Proxima Nova SemiBold';
+    src: url('../fonts/Mark Simonson - Proxima Nova Semibold.otf') format("opentype");;
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url('../fonts/Mark Simonson - Proxima Nova Thin.otf') format("opentype");;
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('../fonts/Mark Simonson - Proxima Nova Light.otf') format("opentype");;
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/matfont.otf') format("opentype");
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+@font-face {
+    font-family: 'Rouble';
+    src: url('../fonts/rouble.ttf');
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+
+@font-face {
+    font-family: "SocIcon";
+    src: url("../fonts/socicon.eot");
+    src: url("../fonts/socicon.eot#iefix") format("embedded-opentype"),
+    url("../fonts/socicon.woff") format("woff"),
+    url("../fonts/socicon.ttf") format("truetype"),
+    url("../fonts/socicon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    }
